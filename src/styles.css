@@ -1,0 +1,25 @@
+*,*::after,*::before{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+#content{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./resources/dusk_rainy.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainFrame{
+    width: 900px;
+    height: 600px;
+    border: thick solid black;
+    background-color: rgba(255, 255, 255, 0.384);
+    box-shadow: 10px 10px 10px 10px rgba(239, 54, 54, 0.184);
+}
