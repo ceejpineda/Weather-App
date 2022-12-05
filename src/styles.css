@@ -1,7 +1,13 @@
+@font-face {
+    font-family: Poppins;
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+
 *,*::after,*::before{
     padding: 0;
     box-sizing: border-box;
     margin: 0%;
+    font-family: Poppins;
 }
 
 #content{
@@ -19,7 +25,15 @@
 .mainFrame{
     width: 900px;
     height: 600px;
-    border: thick solid black;
-    background-color: rgba(255, 255, 255, 0.384);
-    box-shadow: 10px 10px 10px 10px rgba(239, 54, 54, 0.184);
+    border: thick solid gray;
+    background-color: rgba(10, 10, 10, 0.363);
+    box-shadow: 10px 10px 10px 10px rgba(122, 122, 122, 0.184);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainFrame h1{
+    padding: 15px;
+    color: white;
 }

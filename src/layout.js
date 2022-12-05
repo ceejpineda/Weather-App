@@ -9,6 +9,11 @@ const layout = (()=>{
         const mainFrame = document.createElement('div');
         mainFrame.classList.add('mainFrame');
         body.appendChild(mainFrame);
+
+        const title = document.createElement('h1');
+        title.innerText = "Weather App"
+
+        mainFrame.appendChild(title);
     }
 
     return {initialLoad};
